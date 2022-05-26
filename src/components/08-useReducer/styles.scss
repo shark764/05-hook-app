@@ -1,0 +1,9 @@
+.r_todo__actions {
+  display: flex;
+  align-items: center;
+}
+
+.r_todo__complete {
+  text-decoration: line-through;
+  font-weight: 700;
+}

@@ -1,6 +1,7 @@
 import HookApp from './HookApp';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import './App.css';
