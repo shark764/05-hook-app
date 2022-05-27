@@ -12,6 +12,7 @@ import Memorize from './components/06-memos/Memorize';
 import UseCallBackHook from './components/06-memos/UseCallBackHook';
 import Parent from './components/07-tarea-memo/Parent';
 import TodoApp from './components/08-useReducer/TodoApp';
+import MainApp from './components/09-useContext/MainApp';
 
 const HookApp = () => (
   <div className="container-xl">
@@ -19,6 +20,7 @@ const HookApp = () => (
     <hr />
 
     <div className="row d-grid gap-5">
+      <MainApp />
       <TodoApp />
       <Parent />
       <UseCallBackHook />
